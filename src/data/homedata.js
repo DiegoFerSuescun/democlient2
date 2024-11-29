@@ -133,7 +133,7 @@ export const dataHome = [
         registration: "987654321"
     },
     {
-        name: "Diego Suescun",
+        name: "Diego Suescun gacheta",
         email: "Prueba@email.com",
         date: "27th nov 2024",
         number: "123456789",
