@@ -1,0 +1,23 @@
+.ContenSearchBar {
+    /* margin-top: 1%; */
+    /* background-color: white; */
+    height: 7vh;
+    width: 88%;
+    margin-left: 5%;
+}
+
+.contentFilters{
+    /* background-color: red; */
+    /* margin-top: 5px; */
+    height: 2vh;
+    width: 88%;
+    margin-left: 5%;
+}
+
+.contentTable{
+    /* background-color: rgb(36, 33, 243); */
+    margin-top: 10px;
+    height: 75vh;
+    width: 88%;
+    margin-left: 5%;
+}

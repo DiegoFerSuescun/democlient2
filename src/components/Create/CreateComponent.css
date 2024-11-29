@@ -1,0 +1,80 @@
+.ContentSearch {
+    /* margin-top: 1%; */
+    /* background-color: white; */
+    margin-top: 4vh;
+    height: 7vh;
+    width: 50%;
+    margin-left: 5%;
+    padding-left: 10%;
+}
+.ContentBody {
+    /* margin-top: 1%; */
+    background-color: rgb(216, 243, 245);
+    height: 85vh;
+    width: 70%;
+    margin-left: 10%;
+    border-radius: 25px;
+}
+
+.Contentavatar {
+    /* margin-top: 1%; */
+    /* background-color: blue; */
+    height: 30vh;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+    margin-top: 5px;
+    /* padding-top: 1%; */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: start;
+    gap: 40px;
+    padding-left: 5%; /
+}
+
+.ContentForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+    width: 80%;
+    margin: 20px auto;
+    margin-top: 3px;
+}
+  
+  .FormGroup {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .FormGroup span {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    border-radius: 7px;
+  }
+  
+  .FormGroup input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 14px;
+    width: 40vh;
+  }
+
+  .RadioOption {
+    background-color: white;
+    border: 1px solid black;
+    padding: 15px; 
+    margin-right: 12px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    height: 25px;
+  }
+  
+  .RadioOption:last-child {
+    margin-right: 0;
+  }
