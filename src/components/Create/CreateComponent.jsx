@@ -28,6 +28,7 @@ export default function CreateComponent() {
               <Avatar sx={{ bgcolor: '#1976d2', height: '20vh', width: '20vh' }}>D</Avatar>
               <Button
                 variant="contained"
+                component = 'label'
                 sx={{
                   backgroundColor: '#1976d2',
                   color: '#fff',
@@ -37,6 +38,15 @@ export default function CreateComponent() {
                 }}
               >
                 Upload New
+                <input
+                  hidden
+                  type="file"
+                  onChange={(e) => {
+                    if (e.target.files.length > 0) {
+                      console.log("Archivo seleccionado:", e.target.files[0].name);
+                    }
+                  }}
+                />
               </Button>
               <Button
                 variant="contained"
